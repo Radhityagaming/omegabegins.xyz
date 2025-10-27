@@ -133,6 +133,7 @@ nav ul {
     background: rgba(138, 43, 226, 0.1);
 }
 
+
 /* Main Content */
 
 main {
@@ -594,7 +595,6 @@ main {
     color: #d0d0e7;
 }
 
-
 /* Footer Styles */
 
 footer {
@@ -770,3 +770,4 @@ footer {
         gap: 15px;
     }
 }
+

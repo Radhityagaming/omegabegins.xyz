@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series - Omega Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon Omega Community -->
+    <link rel="icon" type="image/x-icon" href="omega-favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="omega-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="omega-favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="omega-apple-touch-icon.png">
+
+    <!-- Fallback jika file favicon tidak ada -->
+    <link rel="icon" href="Omega_Community_logo_without_background.png" type="image/png">
+</head>
+
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation" id="bgAnimation"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="Omega_Community_logo_without_background.png" alt="Omega Community Logo" class="logo-img">
+                    <div class="logo-text">Omega Community</div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="/" class="nav-link">Home</a></li>
+                        <li><a href="/series/" class="nav-link active">Series</a></li>
+                        <li><a href="/social/" class="nav-link">Medsos</a></li>
+                        <li><a href="/sponsor/" class="nav-link">Sponsor</a></li>
+                        <li><a href="/pendaftaran/" class="nav-link">Pendaftaran</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-logo">
+                <img src="Omega_Community_logo_without_background.png" alt="Omega Community Logo" class="mobile-logo-img">
+                <div class="mobile-logo-text">Omega Community</div>
+            </div>
+            <button class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+        </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="/" class="mobile-nav-link">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="/series/" class="mobile-nav-link active">
+                <i class="fas fa-film"></i> Series
+            </a>
+            <a href="/social/" class="mobile-nav-link">
+                <i class="fas fa-share-alt"></i> Medsos
+            </a>
+            <a href="/sponsor/" class="mobile-nav-link">
+                <i class="fas fa-handshake"></i> Sponsor
+            </a>
+            <a href="/pendaftaran/" class="mobile-nav-link">
+                <i class="fas fa-user-plus"></i> Pendaftaran
+            </a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2 class="page-title">Omega Series</h2>
+            <div class="series-grid">
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="logo begins.png" alt="Omega Begins">
+                    </div>
+                    <div class="series-content">
+                        <h3>Omega Begins</h3>
+                        <p>Series Roleplay terbaru omega community yang menjadi awal dari perjalanan baru dari community ini.</p>
+                    </div>
+                </div>
+                <div class="series-card">
+                    <div class="series-image">
+                        <img src="legends.png" alt="Omega Legends">
+                    </div>
+                    <div class="series-content">
+                        <h3>Omega Legends</h3>
+                        <p>Series legendaris yang menjadi fondasi Omega Community series ini merupakan series yang terinspirasi dari brutal legends.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">Omega Community</div>
+                    <p class="footer-text">Crafting Stories, Building Worlds, Growing Minds. Komunitas Minecraft yang berfokus pada kreativitas, kolaborasi, dan pengembangan bersama.</p>
+                    <div class="footer-social">
+                        <a href="https://discord.gg/Jpu7R5dAPv" class="social-link-footer">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="#" class="social-link-footer">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-link-footer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link-footer">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="/"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="/series/"><i class="fas fa-chevron-right"></i> Series</a></li>
+                        <li><a href="/social/"><i class="fas fa-chevron-right"></i> Media Sosial</a></li>
+                        <li><a href="/sponsor/"><i class="fas fa-chevron-right"></i> Sponsor</a></li>
+                        <li><a href="/pendaftaran/"><i class="fas fa-chevron-right"></i> Pendaftaran</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    &copy; 2025 Omega Community. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
